@@ -1,0 +1,373 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA#0_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00003 
+   (rule
+   )
+   (wire (path TOP 127000  28702000 3556000 28702000 3746500 27368500 3746500
+     27368500 4699000 27178000 4699000)
+    (connect (terminal pin J4-2) (terminal pin NMCU1-3))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 127000  27178000 4953000 27368500 4953000 27368500 2984500
+     28956000 2984500 28956000 3556000)
+    (connect (terminal pin NMCU1-4) (terminal pin J4-3))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path TOP 127000  29845000 3556000 29845000 3937000 27559000 3937000
+     27559000 5207000 27178000 5207000)
+    (connect (terminal pin J5-2) (terminal pin NMCU1-5))
+   )
+   )
+   (Net #00006 
+   (rule
+   )
+   (wire (path TOP 127000  30099000 3556000 30099000 4127500 27749500 4127500
+     27749500 5461000 27178000 5461000)
+    (connect (terminal pin J5-3) (terminal pin NMCU1-6))
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   (wire (path TOP 127000  28448000 4699000 28448000 5715000 27178000 5715000)
+    (connect (terminal pin L1-0) (terminal pin NMCU1-7))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path TOP 127000  28702000 4699000 28702000 5969000 27178000 5969000)
+    (connect (terminal pin L1-1) (terminal pin NMCU1-8))
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path TOP 127000  28956000 4699000 28956000 6223000 27178000 6223000)
+    (connect (terminal pin L1-2) (terminal pin NMCU1-9))
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   (wire (path TOP 127000  29210000 4699000 29210000 6477000 27178000 6477000)
+    (connect (terminal pin L1-3) (terminal pin NMCU1-10))
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   (wire (path TOP 127000  29464000 4699000 29464000 6731000 27178000 6731000)
+    (connect (terminal pin L1-4) (terminal pin NMCU1-11))
+   )
+   )
+   (Net #00012 
+   (rule
+   )
+   (wire (path TOP 127000  29718000 4699000 29718000 6985000 27178000 6985000)
+    (connect (terminal pin L1-5) (terminal pin NMCU1-12))
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path TOP 127000  25654000 3175000 25654000 3923000 24658000 3923000)
+    (connect (terminal pin R1-1) (terminal pin NMCU1-29))
+   )
+   )
+   (Net #00020 
+   (rule
+   )
+   (wire (path BOT 127000  24658000 5193000 25336500 5193000 25336500 975443
+     28956000 975443 28956000 -762000)
+    (connect (terminal pin NMCU1-24) (terminal pin U1-1))
+   )
+   )
+   (Net #00021 
+   (rule
+   )
+   (wire (path BOT 127000  24658000 5447000 26272149 5447000 26272149 1576023
+     29210000 1576023 29210000 -762000)
+    (connect (terminal pin NMCU1-23) (terminal pin U1-2))
+   )
+   )
+   (Net #00022 
+   (rule
+   )
+   (wire (path TOP 127000  24658000 5701000 22822616 5701000 22822616 5524500
+     19431000 5524500 19431000 5842000)
+    (connect (terminal pin NMCU1-22) (terminal pin J7-1))
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path TOP 127000  21082000 5842000 21896419 5842000 21896419 5955000
+     24658000 5955000)
+    (connect (terminal pin J6-3) (terminal pin NMCU1-21))
+   )
+   )
+   (Net #00024 
+   (rule
+   )
+   (wire (path TOP 127000  20828000 5842000 20828000 6209000 24658000 6209000)
+    (connect (terminal pin J6-2) (terminal pin NMCU1-20))
+   )
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path BOT 127000  25400000 9525000 25400000 6463000 24658000 6463000)
+    (connect (terminal pin J10-0) (terminal pin NMCU1-19))
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path BOT 127000  19468000 7747000 19468000 8318500 19875500 8318500
+     19875500 9779000 18923000 9779000 18923000 9017000 18669000 9017000)
+    (connect (terminal pin J1-0) (terminal pin J2-0))
+   )
+   )
+   (Net #00054 
+   (rule
+   )
+   (wire (path BOT 127000  24638000 3175000 24638000 2984500 24702000 2984500
+     24702000 2413000)
+    (connect (terminal pin R1-0) (terminal pin Q1-2))
+   )
+   )
+   (Net #00056 
+   (rule
+   )
+   (wire (path TOP 127000  25146000 2413000 31242000 2413000 31242000 3556000)
+    (connect (terminal pin Q1-0) (terminal pin J8-0))
+   )
+   (wire (path TOP 127000  31242000 3556000 31242000 3746500 31496000 3746500
+     31496000 3556000)
+    (connect (terminal pin J8-0) (terminal pin J8-1))
+   )
+   )
+   (Net 3V3 
+   (rule
+   )
+   )
+   (Net 5V 
+   (rule
+   )
+   (wire (path TOP 127000  23368000 7747000 20574000 7747000 20574000 5842000)
+    (connect (terminal pin J1-2) (terminal pin J6-1))
+   )
+   (wire (path BOT 127000  28194000 3746500 28194000 7493000 27178000 7493000)
+    (connect (terminal wire) (terminal pin NMCU1-14))
+   )
+   (wire (path TOP 127000  24934000 2670000 27622500 2670000 27622500 3556000
+     28194000 3556000)
+    (connect (terminal pin Q1-1) (terminal pin J4-0))
+   )
+   (wire (path BOT 127000  24638000 -889000 24638000 -317500 24934000 -317500
+     24934000 2670000)
+    (connect (terminal pin J3-7) (terminal pin Q1-1))
+   )
+   (wire (path TOP 127000  25781000 8128000 25781000 7747000 23368000 7747000)
+    (connect (terminal wire) (terminal pin J1-2))
+   )
+   (wire (path TOP 127000  24934000 2670000 24511000 2670000 24511000 2286000
+     22860000 2286000)
+    (connect (terminal pin Q1-1) (terminal pin LCD1-0))
+   )
+   (wire (path BOT 127000  29464000 -762000 29464000 2073461 29337000 2073461
+     29337000 3556000)
+    (connect (terminal pin U1-3) (terminal pin J5-0))
+   )
+   (wire (path BOT 127000  29337000 3556000 29337000 3746500 28194000 3746500)
+    (connect (terminal pin J5-0) (terminal wire))
+   )
+   (wire (path TOP 127000  25908000 9525000 25908000 8593350 25781000 8593350
+     25781000 8128000)
+    (connect (terminal pin J10-2) (terminal wire))
+   )
+   (wire (path BOT 127000  19685000 5842000 19685000 5461000 20574000 5461000
+     20574000 5842000)
+    (connect (terminal pin J7-2) (terminal pin J6-1))
+   )
+   (wire (path TOP 127000  27178000 7493000 27178000 8128000 25781000 8128000)
+    (connect (terminal pin NMCU1-14) (terminal wire))
+   )
+   (wire (path BOT 127000  28194000 3746500 28194000 3556000)
+    (connect (terminal wire) (terminal pin J4-0))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 127000  22860000 2540000 24384000 2540000 24384000 -889000)
+    (connect (terminal pin LCD1-1) (terminal pin J3-6))
+   )
+   (wire (path BOT 127000  27178000 7239000 27559000 7239000 27559000 3365500
+     28448000 3365500 28448000 3556000)
+    (connect (terminal pin NMCU1-13) (terminal pin J4-1))
+   )
+   (wire (path BOT 127000  29591000 3556000 29591000 2864442 29654500 2864442
+     29654500 -1143000 28702000 -1143000)
+    (connect (terminal pin J5-1) (terminal wire))
+   )
+   (wire (path BOT 127000  28702000 -1143000 24384000 -1143000 24384000 -889000)
+    (connect (terminal wire) (terminal pin J3-6))
+   )
+   (wire (path BOT 127000  19468000 9547000 19468000 9144000 19177000 9144000
+     19177000 6032500)
+    (connect (terminal pin J1-1) (terminal wire))
+   )
+   (wire (path TOP 127000  28448000 3556000 28448000 3365500 29591000 3365500)
+    (connect (terminal pin J4-1) (terminal wire))
+   )
+   (wire (path BOT 127000  20320000 5842000 20320000 6032500 19177000 6032500)
+    (connect (terminal pin J6-0) (terminal wire))
+   )
+   (wire (path TOP 127000  29591000 3365500 30607000 3365500 30607000 3556000)
+    (connect (terminal wire) (terminal pin J9-0))
+   )
+   (wire (path TOP 127000  27178000 7239000 26274443 7239000 26274443 7225000
+     24658000 7225000)
+    (connect (terminal pin NMCU1-13) (terminal pin NMCU1-16))
+   )
+   (wire (path BOT 127000  23368000 9547000 24511000 9547000 24511000 9525000
+     24892000 9525000)
+    (connect (terminal pin J1-3) (terminal wire))
+   )
+   (wire (path TOP 127000  19468000 9547000 19468000 9525000 18669000 9525000)
+    (connect (terminal pin J1-1) (terminal pin J2-1))
+   )
+   (wire (path TOP 127000  23368000 9547000 19468000 9547000)
+    (connect (terminal pin J1-3) (terminal pin J1-1))
+   )
+   (wire (path BOT 127000  24892000 9525000 24892000 9715500 25654000 9715500
+     25654000 9525000)
+    (connect (terminal wire) (terminal pin J10-1))
+   )
+   (wire (path BOT 127000  28702000 -1143000 28702000 -762000)
+    (connect (terminal wire) (terminal pin U1-0))
+   )
+   (wire (path BOT 127000  24658000 7225000 24892000 7225000 24892000 9525000)
+    (connect (terminal pin NMCU1-16) (terminal wire))
+   )
+   (wire (path TOP 127000  30607000 3556000 30607000 3746500 30861000 3746500
+     30861000 3556000)
+    (connect (terminal pin J9-0) (terminal pin J9-1))
+   )
+   (wire (path TOP 127000  29591000 3365500 29591000 3556000)
+    (connect (terminal wire) (terminal pin J5-1))
+   )
+   (wire (path BOT 127000  19177000 6032500 19177000 5842000)
+    (connect (terminal wire) (terminal pin J7-0))
+   )
+   )
+   (Net SCL 
+   (rule
+   )
+   (wire (path BOT 127000  22860000 2794000 22669500 2794000 22669500 673097
+     24130000 673097 24130000 -889000)
+    (connect (terminal pin LCD1-2) (terminal pin J3-5))
+   )
+   (wire (path BOT 127000  22860000 2794000 24003000 2794000 24003000 4177000
+     24658000 4177000)
+    (connect (terminal pin LCD1-2) (terminal pin NMCU1-28))
+   )
+   )
+   (Net SDA 
+   (rule
+   )
+   (wire (path BOT 127000  23876000 -889000 23876000 -399482 22288500 -399482
+     22288500 3048000 22860000 3048000)
+    (connect (terminal pin J3-4) (terminal pin LCD1-3))
+   )
+   (wire (path BOT 127000  24658000 4939000 22860000 4939000 22860000 3048000)
+    (connect (terminal pin NMCU1-25) (terminal pin LCD1-3))
+   )
+   )
+  )
+ )
